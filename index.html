@@ -47,7 +47,7 @@
             /* padding-bottom: 1px; */
             /* padding-left: 7%; */
             /* padding-right: 7%; */
-            margin-top: 50px;
+            /* margin-top: 50px; */
             background-color: rgba(151, 35, 132, 0.175);
         }
         img{
@@ -127,6 +127,12 @@
             width: 100%;
             transition: 250ms;
         }
+
+        @media only screen and (max-width: 600px) {
+            .navigation{
+                display: none;
+            }
+        }
     </style>
 </head>
 <body>
@@ -135,11 +141,11 @@
             <img src="illuminate.com/images/E-Cell KITCoEK LogoCropped.png" alt="logo" class="logo">
             <nav>
                 <ul>
-                    <li><a href="#about us" class="navigation">About us</a></li>
-                    <li><a href="#objectives" class="navigation">Objectives</a></li>
-                    <li><a href="#outcomes" class="navigation">Outcomes</a></li>
-                    <li><a href="#structure" class="navigation">Workshop Structure</a></li>
-                    <li><a href="#contact" class="navigation">Contact us</a></li>
+                    <li><a href="#about us">About us</a></li>
+                    <li><a href="#objectives">Objectives</a></li>
+                    <li><a href="#outcomes">Outcomes</a></li>
+                    <li><a href="#structure">Workshop Structure</a></li>
+                    <li><a href="#contact">Contact us</a></li>
                 </ul>
             </nav>
         </div>     
@@ -147,12 +153,24 @@
     <main>
         <h1>illuminate ecell kitcoek</h1>
         <div class="main">
-            <img src="illuminate.com/images/img27.jpg" alt="img"><br>
-            <img src="illuminate.com/images/img29.jpg" alt="img" id="about us"><br>
-            <img src="illuminate.com/images/img31.jpg" alt="img" id="objectives"><br>
-            <img src="illuminate.com/images/img33.jpg" alt="img" id="outcomes"><br>
-            <img src="illuminate.com/images/img35.jpg" alt="img" id="structure"><br>
-            <img src="illuminate.com/images/img37.jpg" alt="img" id="contact"><br>
+            <section>
+                <img src="illuminate.com/images/img27.jpg" alt="img" style="margin-top: 50px;"><br>
+            </section>
+            <section id="about us">
+                <img src="illuminate.com/images/img29.jpg" alt="img" style="margin-top: 50px;"><br>
+            </section>
+            <section id="objectives">
+                <img src="illuminate.com/images/img31.jpg" alt="img" style="margin-top: 50px;"><br>
+            </section>
+            <section id="outcomes">
+                <img src="illuminate.com/images/img33.jpg" alt="img" style="margin-top: 50px;"><br>
+            </section>
+            <section id="structure">
+                <img src="illuminate.com/images/img35.jpg" alt="img" style="margin-top: 50px;"><br>
+            </section>
+            <section id="contact">
+                <img src="illuminate.com/images/img37.jpg" alt="img" style="margin-top: 50px;"><br>
+            </section>
         </div>
     </main>
     <footer>
